@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+
+}
+
+.main{
+    width: 600px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 30px 25px;
+    border-radius: 8px;
+}
+
+
+.hisob{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hisob button{
+    width: 120px;
+    height: 45px;
+    border-radius: 30px;
+    color: white;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    border: none;
+    letter-spacing: 2px;
+    transition: .3s ease;
+}
+
+.hisob button:active{
+    transform: scale(.9);
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+
+
+.container{
+    width: 100%;
+    padding: 20px 0px;
+}
+
+
+.oylik{
+    width: 95%;
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+}   
+
+.oylik input{
+    width: 70%;
+    height: 45px;
+    border-radius: 5px;
+    border:1px solid #ccc ;    
+    border-bottom-width: 2px;
+    text-indent: 20px;
+    font-size: 16px;
+    outline: none;
+}
+
+.oylik input:hover{
+    outline:1px solid blue;
+
+}
+
+.oylik div{
+    width: 70%;
+    height: 45px;
+    border-radius: 5px;
+    border:1px solid #ccc ;    
+    border-bottom-width: 2px;
+    text-indent: 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+
+}
+
+.oylik span{
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+}
+
+
+.natija {
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.natija h3{
+    font-family: Poppins, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+
+}
+
+
+.natija  span{
+    font-size: 20px;
+    font-family: Poppins, sans-serif;   
+    font-weight: normal;
+    margin-left: 20px;
+}
